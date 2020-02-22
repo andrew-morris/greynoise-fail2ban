@@ -9,3 +9,8 @@ action_greynoise = greynoise
 action = %(action_)s
          %(action_greynoise)s
 ```
+# FAQ
+
+* What does this do?
+
+Currently, not much. The first pass of this integration is simply to silently look up each IP your server bans against GreyNoise. The next pass will have more functionality. 
